@@ -1,0 +1,22 @@
+{
+  "name": "ASModuleInteractor",
+  "version": "0.1.0",
+  "summary": "A short description of ASModuleInteractor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Andrewmika/ASModuleInteractor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrewmika": "iandrew@126.com"
+  },
+  "source": {
+    "git": "https://github.com/Andrewmika/ASModuleInteractor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASModuleInteractor/Classes/**/*"
+}

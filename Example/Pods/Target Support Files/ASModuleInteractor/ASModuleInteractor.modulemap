@@ -1,0 +1,6 @@
+framework module ASModuleInteractor {
+  umbrella header "ASModuleInteractor-umbrella.h"
+
+  export *
+  module * { export * }
+}

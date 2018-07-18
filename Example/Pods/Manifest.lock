@@ -1,0 +1,16 @@
+PODS:
+  - ASModuleInteractor (0.1.0)
+
+DEPENDENCIES:
+  - ASModuleInteractor (from `../`)
+
+EXTERNAL SOURCES:
+  ASModuleInteractor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASModuleInteractor: 6f0fdf8e84ce569941d3d8ba7f508d645f631424
+
+PODFILE CHECKSUM: cfa28bcd261dbc69dbfe354428941e2e3ba40d59
+
+COCOAPODS: 1.5.0
