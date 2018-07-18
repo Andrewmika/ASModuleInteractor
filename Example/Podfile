@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASModuleInteractor_Example' do
+  pod 'ASModuleInteractor', :path => '../'
+
+  target 'ASModuleInteractor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
