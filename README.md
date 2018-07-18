@@ -20,6 +20,30 @@ it, simply add the following line to your Podfile:
 pod 'ASModuleInteractor'
 ```
 
+## Usage
+### create category file
+example:
+
+    ```
+    #import "ASModuleInteractor.h"
+    
+    @interface ASModuleInteractor (ModuleA)
+    
+    - (void)go_pageA;
+    
+    - (void)go_pageSubA;
+    @end
+
+    ```
+
+### navigate to different pages
+example:
+
+```
+[[ASModuleInteractor sharedInstance] go_pageSubA];
+
+```
+
 ## Author
 
 Andrewmika, iandrew@126.com
