@@ -24,17 +24,17 @@ pod 'ASModuleInteractor'
 ### create category file
 example:
 
-    ```
-    #import "ASModuleInteractor.h"
-    
-    @interface ASModuleInteractor (ModuleA)
-    
-    - (void)go_pageA;
-    
-    - (void)go_pageSubA;
-    @end
+```
+#import "ASModuleInteractor.h"
 
-    ```
+@interface ASModuleInteractor (ModuleA)
+
+- (void)go_pageA;
+
+- (void)go_pageSubA;
+@end
+
+```
 
 ### navigate to different pages
 example:
